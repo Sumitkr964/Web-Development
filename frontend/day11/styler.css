@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100;
+    width: 100;
+}
+#head{padding-top: 20px;
+    color: aliceblue;
+    background-color:black;
+    height: 100px;
+    text-align: center;
+    
+}
+#about{
+    padding-top: 20px;
+    margin-left: 60px;
+    color: black;
+    background-color:aqua;
+    height: 80px;
+    width: 90%;
+    text-align: center;
+}
+#edu{
+    padding-top: 20px;
+    margin-left: 60px;
+    color: black;
+    background-color:aliceblue;
+    height: 115px;
+    width: 90%;
+    text-align: center;
+}
+.e{
+    color: black;
+    background-color:white;
+    height: 30px;
+    width: 80%;
+    margin-top: 2px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
