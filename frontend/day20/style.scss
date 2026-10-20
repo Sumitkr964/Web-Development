@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 8px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-size: cover;
+        background-position: center;
+        transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);/
+        cursor: pointer;
+    }
+    section:hover{
+        flex-grow: 3;
+        
+    }
+
+    section:nth-child(1) {
+        background-image: url(./ironman.jpg);
+    }
+    section:nth-child(2) {
+        background-image: url(https://images.unsplash.com/photo-1561149877-84d268ba65b8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1935);
+
+    }
+    section:nth-child(3) {
+        background-image: url(https://images.unsplash.com/photo-1679487649038-fab2786b79ce?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+
+    }
+    section:nth-child(4) {
+        background-image: url(https://images.unsplash.com/photo-1689565240701-90c2600e11d8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687);
+
+    }
+    section:nth-child(5) {
+        background-image: url(https://images.unsplash.com/photo-1706372460055-838da802628c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2012);
+
+    }
+
+}
+
