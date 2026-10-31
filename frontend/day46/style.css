@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 300px;
+    background-color: aliceblue;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.card h2{
+    font-size: 25px;
+    text-align: center;
+}
+.card i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    opacity: 0;
+    
+    background-image: url(https://cdn.dribbble.com/userupload/28551890/file/original-904ed2fc62592ad48c5049bf4d3429b0.png?resize=1504x1128&vertical=center);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+    transform: translate(-50%,-50%) scale(0) rotate(-60deg);
+    transition: all cubic-bezier(.76,.98,.59,1.86) 0.4s;
+}
