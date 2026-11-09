@@ -1,0 +1,94 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+/* body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.balls{
+    display: flex;
+    gap: 10px;
+    border: 3px solid white;
+}
+
+.ball {
+    height: 50px;
+    width: 50px;
+    transition: all 0.3s linear;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: rgb(142, 16, 16);
+}
+
+.blue {
+    background-color: rgb(17, 17, 97);
+}
+
+.green {
+    background-color: rgb(13, 80, 13);
+}
+
+.balls:has(.red){
+    background-color: pink;
+} */
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    anchor-name: --some-anchor;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+}
+
+.box:hover{
+    anchor-name: --some-anchor; 
+}
+
+.red{
+    background-color: rgb(142, 16, 16); 
+}
+.blue{
+    background-color: rgb(17, 17, 97);
+}   
+.green{
+    background-color: rgb(13, 80, 13);
+}
+
+
+.anchor{
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top:anchor(top);
+    left:anchor(left);
+    bottom: anchor(bottom);
+    right:anchor(right);
+    pointer-events: none;
+    position-anchor: --some-anchor;
+    transition: all 0.3s linear;
+    mix-blend-mode: difference;
+}
