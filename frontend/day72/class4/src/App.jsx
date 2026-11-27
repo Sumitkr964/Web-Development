@@ -17,6 +17,10 @@ const App = () => {
     console.log('Button is Clicked!!!');
   }
 
+  function mouseEnter(a) {
+    console.log('Mouse entered!!!');
+  }
+
   return (
     <div>
       <Navbar title='iphone' color='red' links={['home','iphone','ipad','mac','about us']} />
@@ -33,7 +37,15 @@ const App = () => {
           btnClicked()
         }}
         className='active:scale-95 bg-emerald-600 text-white px-6 py-3 rounded font-bold m-2 mt-7 '
-      >Click to Download
+      >Click Me
+      </button>
+
+      <button
+        onMouseEnter={function(){
+          mouseEnter()
+        }}
+        className='active:scale-95 bg-emerald-600 text-white px-6 py-3 rounded font-bold m-2 mt-7 '
+      >Enter Mouse
       </button>
 
     </div>
